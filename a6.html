@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raigad</title>
+    <style>
+        body {
+            background-image: url('https://i.ytimg.com/vi/yt17SymXps4/maxresdefault.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px; /* Space between the image and the text */
+        }
+
+        .framed-image {
+            width: 500px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            padding: 15px; /* Space between the image and the border */
+            border: 5px solid white; /* Border around the image */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+            border-radius: 10px; /* Rounded corners */
+            background-color: rgba(255, 255, 255, 0.8); /* Background color for the frame */
+        }
+
+        .description {
+            max-width: 400px; /* Limit the width of the text */
+            color: white; /* Text color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow to the text */
+            line-height: 1.8; /* Increase line spacing */
+            font-size: 20px; /* Increase font size */
+        }
+
+        .title {
+            font-size: 36px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px; /* Space below the title */
+            margin-top: 20px; /* Move the title slightly down */
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px; /* Space between the buttons */
+            margin-top: 20px;
+        }
+
+        .animated-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .animated-button:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: black;
+        }
+
+        .top-left-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .top-left-button:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: black;
+        }
+
+        .bottom-container {
+            margin-top: auto;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .bottom-text {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow to the text */
+            max-width: 600px;
+            font-size: 20px; /* Increase the font size */
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button class="top-left-button" onclick="window.location.href='a5.html'">Back to Kedarnath</button>
+    <h1 class="title">Raigad</h1>
+    <div class="bottom-container">
+        <div class="button-container">
+            <button class="animated-button" onclick="window.location.href='a6.1.html'">Learn More about Raigad</button>
+            <button class="animated-button" onclick="window.location.href='a7.html'">Skip to next content</button>
+        </div>
+        <div class="bottom-text">
+            <p>Raigad is a district in the Konkan division of Maharashtra, India. It is known for its historical significance, scenic landscapes, and cultural heritage. The district is home to the famous Raigad Fort, which was the capital of the Maratha Empire under Chhatrapati Shivaji Maharaj. Raigad also boasts beautiful beaches, lush greenery, and various religious sites, making it a popular tourist destination.</p>
+        </div>
+    </div>
+</body>
+</html>
