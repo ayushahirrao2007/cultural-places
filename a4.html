@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('https://static.vecteezy.com/system/resources/previews/012/717/812/non_2x/illustration-of-an-background-with-bubbles-free-vector.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px; 
+        }
+
+        .framed-image {
+            width: 500px; 
+            height: auto; 
+            padding: 15px; 
+            border: 5px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            border-radius: 10px; 
+            background-color: rgba(255, 255, 255, 0.8); 
+        }
+
+        .description {
+            max-width: 400px; 
+            color: white; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            line-height: 1.4;
+        }
+
+        .title {
+            font-size: 36px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 0px; 
+            margin-top: -30px; 
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px; /* Space between the buttons */
+            margin-top: 20px;
+        }
+
+        .animated-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .animated-button:hover {
+            transform: scale(1.1);
+            background-color: rgba(255, 255, 255, 0.2);
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Varanasi, Banaras</h1>
+    <div class="content">
+        <img src="https://th.bing.com/th/id/OIP.KuFCmX8UdFrnydDAItCvowHaE7?w=248&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Beautiful Image" class="framed-image">
+        <h2 class="description">Varanasi, also known as Banaras, is one of the oldest continuously inhabited cities in the world, located in Uttar Pradesh, India. It is a major cultural and religious hub, known for its ghats along the Ganges River, ancient temples, and vibrant festivals. Varanasi is a significant pilgrimage site for Hindus and attracts visitors from around the globe for its spiritual and historical significance. 🛕✨</h2>
+    </div>
+    <div class="button-container">
+        <button class="animated-button" onclick="window.location.href='nextpage.html'">Learn More about Varanasi</button>
+        <button class="animated-button" onclick="window.location.href='anotherpage.html'">Skip on next content</button>
+    </div>
+</body>
+</html>
